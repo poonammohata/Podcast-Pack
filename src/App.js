@@ -74,7 +74,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>Podcast Pack</h1>
-      <p>These are my favourite Podcast.Click a genre to explore them</p>
+      <p>
+        These are some of my favourite Podcasts.Click a genre to explore them
+      </p>
       <div>
         {listofGenre.map(function (genre) {
           return (
