@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+.App {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+body {
+  background-color: #ec4899;
+  color: #a5ffef;
+}
+.genre-button {
+  background-color: #a5ffef;
+  color: #db2777;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.4rem;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid #a5ffef;
+  cursor: pointer;
+}
+.genre-button:focus {
+  background-color: #f472b6;
+}
+.hr-line {
+  max-width: 400px;
+  color: #a5ffef;
+  margin: 1rem auto;
+}
+.genre-list {
+  background-color: #fbcfe8;
+  color: #db2777;
+  max-width: 450px;
+  height: 120px;
+  box-shadow: 0px 0px 4px 4px #fce7f3;
+  margin: 1rem auto;
+}
+.image {
+  width: 100px;
+  max-height: 120px;
+  float: left;
+  margin: auto 0rem;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+.podcast-heading {
+  margin-bottom: 0.2rem;
+}
+.podcast-by {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.podcast-button {
+  text-decoration: none;
+  border: 1px solid #f472b6;
+  background-color: #f472b6;
+  color: #a5ffef;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  margin: 0.3rem 0;
+  outline: none;
+  cursor: pointer;
+}
+.podcast-button:focus {
+  background-color: #db2777;
+}
+ul {
+  padding-inline-start: 0px;
+}
